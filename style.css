@@ -13,54 +13,65 @@
     }
 }
 
-
+/* primo esercizio */
 .jumbotron h1 {
     color: red;
+    border:2px solid black;
 }
-
+/* secondo esercizio */
+.nav * {
+    color:green;
+    cursor: pointer;
+    border:2px solid black;
+}
+/* terzo esercizio */
 .jumbotron a{
     color:blue;
     font-size:1.5em;
     text-decoration: none;
+    border:2px solid black;
 }
 
-.nav span {
-    color:green;
-    cursor: pointer;
-}
-
+/* quarto esercizio */
 .blog-post:first-of-type{
     color:blueviolet;
+    border: 2px solid black;
 }
-
+/* quinto esercizio */
 .blog-post hr:first-of-type {
     background-color: red;}
 
-.blog-pagination a:nth-of-type(even){
+/* sesto esercizio */
+.nav span:nth-of-type(even){
     font-size: 2em;
+    color:brown;
+}
+/* settimo esercizio */
+.p-4 .mb-0 li{
+    background-color: blue;
+    border: 2px solid black;
 }
 
-.p-4 .mb-0 li{
+/* ottavo esercizio */
+.blog-post:nth-of-type(2) p.blog-post-meta a {
     background-color: blue;
 }
 
-p.blog-post-meta a:nth-child(1) {
-    font-size: 30px;
-}
-
-
+/* nono esercizio */
 .blog-post:nth-of-type(3) li:nth-of-type(2){
     background-color: rosybrown;
 }
-
-.float-right.mb-3.mr-3{
+/* decimo esercizio */
+footer+a{
     background-color: red;
+    font-size: 3em;
 }
-
-.blog-pagination a:first-child{
+/* undicesimo esercizio */
+.blog-pagination a:last-child{
     background-color: blue;
 }
-
-.text-center a:last-child{
+/* dodicesimo esercizio */
+footer a:nth-child(2){
     background-color: red;
+    font-size: 1.5em;
 }
